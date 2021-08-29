@@ -42,11 +42,4 @@ sudo apt install ros-galactic-ros-base -y
 source /opt/ros/galactic/setup.bash
 echo 'source /opt/ros/galactic/setup.bash' >> ~/.bashrc 
 
-#Install ROS 2
-echo " - Installing and initializing rosdep"
-
-sudo apt update
-sudo apt install -y python3-rosdep
-sudo rosdep init
-rosdep update
 
